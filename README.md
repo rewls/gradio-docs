@@ -26,7 +26,7 @@
 
 - Building With Blocks
 
-- Chatbots
+- [Chatbots](chatbots)
 
 - Custom Components
 
