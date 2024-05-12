@@ -4,4 +4,4 @@
 
 - [Quickstart](quickstart)
 
-- Key Featrues
+- [Key Featrues](key-features)
