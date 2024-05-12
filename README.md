@@ -1,7 +1,5 @@
 # Gradio Documentation
 
-> Gradio Documentation Version 4.29.0
-
 ## Contents
 
 ### Documentation
@@ -20,7 +18,7 @@
 
 ### Guides
 
-- Getting Started
+- [Getting Started](getting-started)
 
 - Building Interfaces
 
