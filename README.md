@@ -32,6 +32,6 @@
 
 - Tabular Data Science And Plots
 
-- Gradio Clients And Lite
+- [Gradio Clients And Lite](gradio-clients-and-lite)
 
 - Other Tutorials
