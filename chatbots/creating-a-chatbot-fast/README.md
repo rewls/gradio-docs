@@ -1,5 +1,7 @@
 # How to Create a Chatbot with Gradio
 
+> Gradio Version 4.29.0
+
 ## Introduction
 
 - This tutorial uses `gr.ChatInterface()`, which is a high-level abstraction that allows you to create your chatbot UI fast, often with a single line of code.
@@ -99,7 +101,7 @@
 
     - See Creating A Custom Chatbot With Blocks.
 
-## Using your chatbot via an AP
+## Using your chatbot via an API
 
 - Once you've built your Gradio chatbot and are hosting it somewhere, then you can query it with a simple API at the `/chat` endpoint.
 
