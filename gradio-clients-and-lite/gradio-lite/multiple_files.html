@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="module" crossorigin src="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.css" />
+	</head>
+	<body>
+		<gradio-lite>
+			<gradio-file name="app.py" entrypoint>
+				import gradio as gr
+				from utils import add
+
+
+				demo = gr.Interface(fn=add, inputs=["number", "number"], outputs="number")
+
+				demo.launch()
+				</gradio-file>
+				<gradio-file name="utils.py">
+					def add(a, b):
+						return a + b
+				</gradio-file>
+		</gradio-lite>
+	</body>
+</html>

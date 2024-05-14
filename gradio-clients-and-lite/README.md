@@ -10,6 +10,6 @@
 
 - Gradio And Llm Agents
 
-- Gradio Lite
+- [Gradio Lite](gradio-lite)
 
 - Gradio Lite And Transformers Js
