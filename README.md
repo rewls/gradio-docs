@@ -22,7 +22,7 @@
 
 - [Building Interfaces](building-interfaces)
 
-- Building With Blocks
+- [Building With Blocks](building-with-blocks)
 
 - [Chatbots](chatbots)
 
