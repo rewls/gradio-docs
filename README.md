@@ -20,7 +20,7 @@
 
 - [Getting Started](getting-started)
 
-- Building Interfaces
+- [Building Interfaces](building-interfaces)
 
 - Building With Blocks
 
