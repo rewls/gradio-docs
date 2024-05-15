@@ -4,7 +4,7 @@
 
 ### Documentation
 
-- Gradio
+- [Gradio](gradio)
 
 - Python Client
 
