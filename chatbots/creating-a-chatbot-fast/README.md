@@ -76,6 +76,24 @@
 
 - The placeholder appears vertically and horizontally centered in the chatbot.
 
+## Add Multimodal Capability to your chatbot
+
+- You can make your chatbot "multimodal" by passing in a single parameter `multimodal = True` to the `gr.ChatInterface` class.
+
+> ##### [multimodal.py](multimodal.py)
+
+- When `multimodal = True`, the signature of `fn` changes slightly.
+
+- The first parameter of your function should accept a dictionary consisting of the submitted text and uploaded files that looks like this: `{"text": "user input", "file":["file_path1", "file_path2", ...]}`.
+
+- Similarly, any examples you provide should be in a dictionary of this form.
+
+- Your function should still return a single `str` message.
+
+> ##### Tip
+>
+> - If you'd like to customize the UI/UX of the textbox for your multimodal chatbot, you should pass in an instance of `gr.MultimodalTextbox` to the `textbox` argument of `ChatInterface`.
+
 ## Additional Inputs
 
 - You may want to add additional parameters to your chatbot and expose them to your users through the Chatbot UI.
