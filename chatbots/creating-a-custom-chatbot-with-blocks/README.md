@@ -73,3 +73,13 @@
 ## Adding Markdown, Images, Audio, or Videos
 
 - The `gr.Chatbot` component supports a subset of markdown including bold, italics, and code.
+
+- It can handle media files, such as images, audio, and video.
+
+- you can use the `MultimodalTextbox` component to easily upload all types of media files to your chatbot.
+
+- To pass in a media file, we must pass in the file as a tuple of two strings, like this :`(filepath, alt_text)`.
+
+- The `alt_text` is optional, so you can also just pass in a tuple with a single element `(filepath,)`.
+
+> ##### [multimodal.py](multimodal.py)

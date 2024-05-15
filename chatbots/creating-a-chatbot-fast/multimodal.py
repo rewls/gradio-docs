@@ -7,7 +7,7 @@ import time
 
 
 def count_files(message, history):
-    num_files = len(message[files])
+    num_files = len(message["files"])
     return f"You uploaded {num_files} files"
 
 
