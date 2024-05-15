@@ -4,7 +4,7 @@
 
 - [Blocks and Event Listeners](blocks-and-event-listeners)
 
-- Controlling Layout
+- [Controlling Layout](controlling-layout)
 
 - State In Blocks
 
