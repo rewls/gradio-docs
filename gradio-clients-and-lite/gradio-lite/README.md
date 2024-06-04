@@ -62,7 +62,7 @@
 
 - You can have as many `<gradio-file>` tags as you want, but each one needs to have a `name` attribute and the entry point to your Gradio app should have the `entrypoint` attribute.
 
-> ##### [multiple-files.html](multiple-files.html)
+> ##### [multiple_files.html](multiple_files.html)
 
 ### Additional Requirements
 
