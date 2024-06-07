@@ -160,6 +160,6 @@
 
 - If you do not specify any trigger, the function will automatically bind to all `change` event of all input components that include a `change` event.
 
-> [live.py](live.oy)
+> [live.py](live.py)
 
 - You can follow `gr.on` with `.then`.

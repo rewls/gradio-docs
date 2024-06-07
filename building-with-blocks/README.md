@@ -6,7 +6,7 @@
 
 - [Controlling Layout](controlling-layout)
 
-- State In Blocks
+- [State In Blocks](state-in-blocks)
 
 - Custom CSS and JS
 
